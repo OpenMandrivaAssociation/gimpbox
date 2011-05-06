@@ -1,9 +1,11 @@
+%define distsuffix edm
+
 Summary:        Gimpbox take Gimp work on one window interface
 Name:           gimpbox
 Version:        0.1.0
 Release:        %mkrel 1
 License:        GPLv2+
-Group:          Graphics
+Group:          System Environment/Base
 Source0:        http://gimpbox.googlecode.com/hg/%{name}.py
 BuildArch:      noarch
 Requires:	gimp >= 2.6.10
