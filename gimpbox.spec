@@ -46,3 +46,19 @@ sed -i '/Exec/s/gimpbox/gimp-2.6/g' /usr/share/applications/gimp.desktop
 
 %{_bindir}/gimpbox
 
+
+
+%changelog
+* Fri May 06 2011 Александр Казанцев <kazancas@mandriva.org> 0.1.0-2edm2011.0
++ Revision: 670802
+- imported package gimpbox
+
+* Tue Dec 28 2010 Александр Казанцев <kazancas@mandriva.org> 0.1.0-1mdv2011.0
++ Revision: 625508
+- import gimpbox
+
+
+* Tue Nov 9 2010 Alexander Kazancev <kazancas@mandriva.ru> - 0.1.0
+- initial build
+
+
