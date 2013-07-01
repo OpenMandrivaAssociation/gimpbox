@@ -1,6 +1,6 @@
 %define distsuffix edm
 
-Summary:        Gimpbox take Gimp work on one window interface
+Summary:        Take Gimp work on one window interface
 Name:           gimpbox
 Version:        0.1.0
 Release:        %mkrel 2
