@@ -3,7 +3,7 @@
 Summary:        Take Gimp work on one window interface
 Name:           gimpbox
 Version:        0.1.0
-Release:        %mkrel 2
+Release:        3
 License:        GPLv2+
 Group:          Graphics
 Source0:        http://gimpbox.googlecode.com/hg/%{name}.py
@@ -20,13 +20,11 @@ gimbox is a small script on python, running Gimp on one window interface
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
 
 mkdir -p ${RPM_BUILD_ROOT}/%{_bindir}
 cp %SOURCE0  ${RPM_BUILD_ROOT}/%{_bindir}/%{name}
 
 %clean
-rm -rf %{buildroot}
 
 %post
 
