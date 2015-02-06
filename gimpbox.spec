@@ -3,7 +3,7 @@
 Summary:        Take Gimp work on one window interface
 Name:           gimpbox
 Version:        0.1.0
-Release:        3
+Release:        4
 License:        GPLv2+
 Group:          Graphics
 Source0:        http://gimpbox.googlecode.com/hg/%{name}.py
